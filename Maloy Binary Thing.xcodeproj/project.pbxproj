@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A26086920F16E7A00AF40CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A26086820F16E7A00AF40CC /* AppDelegate.swift */; };
+		4A26086B20F16E7A00AF40CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A26086A20F16E7A00AF40CC /* ViewController.swift */; };
+		4A26086E20F16E7A00AF40CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A26086C20F16E7A00AF40CC /* Main.storyboard */; };
+		4A26087020F16E7C00AF40CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A26086F20F16E7C00AF40CC /* Assets.xcassets */; };
+		4A26087320F16E7C00AF40CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A26087120F16E7C00AF40CC /* LaunchScreen.storyboard */; };
+		4A26087E20F16E7C00AF40CC /* Maloy_Binary_ThingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A26087D20F16E7C00AF40CC /* Maloy_Binary_ThingTests.swift */; };
+		4A26088920F16E7C00AF40CC /* Maloy_Binary_ThingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A26088820F16E7C00AF40CC /* Maloy_Binary_ThingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A26087A20F16E7C00AF40CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A26085D20F16E7A00AF40CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A26086420F16E7A00AF40CC;
+			remoteInfo = "Maloy Binary Thing";
+		};
+		4A26088520F16E7C00AF40CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A26085D20F16E7A00AF40CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A26086420F16E7A00AF40CC;
+			remoteInfo = "Maloy Binary Thing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A26086520F16E7A00AF40CC /* Maloy Binary Thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maloy Binary Thing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A26086820F16E7A00AF40CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A26086A20F16E7A00AF40CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A26086D20F16E7A00AF40CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A26086F20F16E7C00AF40CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A26087220F16E7C00AF40CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A26087420F16E7C00AF40CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A26087920F16E7C00AF40CC /* Maloy Binary ThingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maloy Binary ThingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A26087D20F16E7C00AF40CC /* Maloy_Binary_ThingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maloy_Binary_ThingTests.swift; sourceTree = "<group>"; };
+		4A26087F20F16E7C00AF40CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A26088420F16E7C00AF40CC /* Maloy Binary ThingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maloy Binary ThingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A26088820F16E7C00AF40CC /* Maloy_Binary_ThingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maloy_Binary_ThingUITests.swift; sourceTree = "<group>"; };
+		4A26088A20F16E7C00AF40CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A26086220F16E7A00AF40CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A26087620F16E7C00AF40CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A26088120F16E7C00AF40CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A26085C20F16E7A00AF40CC = {
+			isa = PBXGroup;
+			children = (
+				4A26086720F16E7A00AF40CC /* Maloy Binary Thing */,
+				4A26087C20F16E7C00AF40CC /* Maloy Binary ThingTests */,
+				4A26088720F16E7C00AF40CC /* Maloy Binary ThingUITests */,
+				4A26086620F16E7A00AF40CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A26086620F16E7A00AF40CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A26086520F16E7A00AF40CC /* Maloy Binary Thing.app */,
+				4A26087920F16E7C00AF40CC /* Maloy Binary ThingTests.xctest */,
+				4A26088420F16E7C00AF40CC /* Maloy Binary ThingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A26086720F16E7A00AF40CC /* Maloy Binary Thing */ = {
+			isa = PBXGroup;
+			children = (
+				4A26086820F16E7A00AF40CC /* AppDelegate.swift */,
+				4A26086A20F16E7A00AF40CC /* ViewController.swift */,
+				4A26086C20F16E7A00AF40CC /* Main.storyboard */,
+				4A26086F20F16E7C00AF40CC /* Assets.xcassets */,
+				4A26087120F16E7C00AF40CC /* LaunchScreen.storyboard */,
+				4A26087420F16E7C00AF40CC /* Info.plist */,
+			);
+			path = "Maloy Binary Thing";
+			sourceTree = "<group>";
+		};
+		4A26087C20F16E7C00AF40CC /* Maloy Binary ThingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A26087D20F16E7C00AF40CC /* Maloy_Binary_ThingTests.swift */,
+				4A26087F20F16E7C00AF40CC /* Info.plist */,
+			);
+			path = "Maloy Binary ThingTests";
+			sourceTree = "<group>";
+		};
+		4A26088720F16E7C00AF40CC /* Maloy Binary ThingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A26088820F16E7C00AF40CC /* Maloy_Binary_ThingUITests.swift */,
+				4A26088A20F16E7C00AF40CC /* Info.plist */,
+			);
+			path = "Maloy Binary ThingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A26086420F16E7A00AF40CC /* Maloy Binary Thing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A26088D20F16E7C00AF40CC /* Build configuration list for PBXNativeTarget "Maloy Binary Thing" */;
+			buildPhases = (
+				4A26086120F16E7A00AF40CC /* Sources */,
+				4A26086220F16E7A00AF40CC /* Frameworks */,
+				4A26086320F16E7A00AF40CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maloy Binary Thing";
+			productName = "Maloy Binary Thing";
+			productReference = 4A26086520F16E7A00AF40CC /* Maloy Binary Thing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A26087820F16E7C00AF40CC /* Maloy Binary ThingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A26089020F16E7C00AF40CC /* Build configuration list for PBXNativeTarget "Maloy Binary ThingTests" */;
+			buildPhases = (
+				4A26087520F16E7C00AF40CC /* Sources */,
+				4A26087620F16E7C00AF40CC /* Frameworks */,
+				4A26087720F16E7C00AF40CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A26087B20F16E7C00AF40CC /* PBXTargetDependency */,
+			);
+			name = "Maloy Binary ThingTests";
+			productName = "Maloy Binary ThingTests";
+			productReference = 4A26087920F16E7C00AF40CC /* Maloy Binary ThingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A26088320F16E7C00AF40CC /* Maloy Binary ThingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A26089320F16E7C00AF40CC /* Build configuration list for PBXNativeTarget "Maloy Binary ThingUITests" */;
+			buildPhases = (
+				4A26088020F16E7C00AF40CC /* Sources */,
+				4A26088120F16E7C00AF40CC /* Frameworks */,
+				4A26088220F16E7C00AF40CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A26088620F16E7C00AF40CC /* PBXTargetDependency */,
+			);
+			name = "Maloy Binary ThingUITests";
+			productName = "Maloy Binary ThingUITests";
+			productReference = 4A26088420F16E7C00AF40CC /* Maloy Binary ThingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A26085D20F16E7A00AF40CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Anthony Li";
+				TargetAttributes = {
+					4A26086420F16E7A00AF40CC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4A26087820F16E7C00AF40CC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4A26086420F16E7A00AF40CC;
+					};
+					4A26088320F16E7C00AF40CC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4A26086420F16E7A00AF40CC;
+					};
+				};
+			};
+			buildConfigurationList = 4A26086020F16E7A00AF40CC /* Build configuration list for PBXProject "Maloy Binary Thing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A26085C20F16E7A00AF40CC;
+			productRefGroup = 4A26086620F16E7A00AF40CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A26086420F16E7A00AF40CC /* Maloy Binary Thing */,
+				4A26087820F16E7C00AF40CC /* Maloy Binary ThingTests */,
+				4A26088320F16E7C00AF40CC /* Maloy Binary ThingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A26086320F16E7A00AF40CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A26087320F16E7C00AF40CC /* LaunchScreen.storyboard in Resources */,
+				4A26087020F16E7C00AF40CC /* Assets.xcassets in Resources */,
+				4A26086E20F16E7A00AF40CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A26087720F16E7C00AF40CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A26088220F16E7C00AF40CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A26086120F16E7A00AF40CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A26086B20F16E7A00AF40CC /* ViewController.swift in Sources */,
+				4A26086920F16E7A00AF40CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A26087520F16E7C00AF40CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A26087E20F16E7C00AF40CC /* Maloy_Binary_ThingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A26088020F16E7C00AF40CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A26088920F16E7C00AF40CC /* Maloy_Binary_ThingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A26087B20F16E7C00AF40CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A26086420F16E7A00AF40CC /* Maloy Binary Thing */;
+			targetProxy = 4A26087A20F16E7C00AF40CC /* PBXContainerItemProxy */;
+		};
+		4A26088620F16E7C00AF40CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A26086420F16E7A00AF40CC /* Maloy Binary Thing */;
+			targetProxy = 4A26088520F16E7C00AF40CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A26086C20F16E7A00AF40CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A26086D20F16E7A00AF40CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A26087120F16E7C00AF40CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A26087220F16E7C00AF40CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A26088B20F16E7C00AF40CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A26088C20F16E7C00AF40CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A26088E20F16E7C00AF40CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Maloy Binary Thing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rocks.anli5005.Maloy-Binary-Thing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A26088F20F16E7C00AF40CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Maloy Binary Thing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rocks.anli5005.Maloy-Binary-Thing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A26089120F16E7C00AF40CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Maloy Binary ThingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rocks.anli5005.Maloy-Binary-ThingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maloy Binary Thing.app/Maloy Binary Thing";
+			};
+			name = Debug;
+		};
+		4A26089220F16E7C00AF40CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Maloy Binary ThingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rocks.anli5005.Maloy-Binary-ThingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maloy Binary Thing.app/Maloy Binary Thing";
+			};
+			name = Release;
+		};
+		4A26089420F16E7C00AF40CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Maloy Binary ThingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rocks.anli5005.Maloy-Binary-ThingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Maloy Binary Thing";
+			};
+			name = Debug;
+		};
+		4A26089520F16E7C00AF40CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Maloy Binary ThingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rocks.anli5005.Maloy-Binary-ThingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Maloy Binary Thing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A26086020F16E7A00AF40CC /* Build configuration list for PBXProject "Maloy Binary Thing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A26088B20F16E7C00AF40CC /* Debug */,
+				4A26088C20F16E7C00AF40CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A26088D20F16E7C00AF40CC /* Build configuration list for PBXNativeTarget "Maloy Binary Thing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A26088E20F16E7C00AF40CC /* Debug */,
+				4A26088F20F16E7C00AF40CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A26089020F16E7C00AF40CC /* Build configuration list for PBXNativeTarget "Maloy Binary ThingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A26089120F16E7C00AF40CC /* Debug */,
+				4A26089220F16E7C00AF40CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A26089320F16E7C00AF40CC /* Build configuration list for PBXNativeTarget "Maloy Binary ThingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A26089420F16E7C00AF40CC /* Debug */,
+				4A26089520F16E7C00AF40CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A26085D20F16E7A00AF40CC /* Project object */;
+}
